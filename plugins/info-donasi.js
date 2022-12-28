@@ -28,24 +28,24 @@ let rules = `┌─── 〔 D O N A S I 〕 ───
 Kalian bisa mendukung bot ini dengan cara 
 
 ┌〔 PAYMANT 〕
-├📌 Dana : 6285850539404
-├📌 Pulsa : 6285850539404
+├📌 Maxis : 601123559717
+├📌 Digi : 601126001236
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
 Arigatou!
 
 Contact person Owner:
- ࿑ Owner wa.me/6285850539404 ( pemilik bot )`
+ ࿑ Owner wa.me/601123559717 ( pemilik bot )`
 let nth = `*𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚜𝚌𝚊𝚛-𝙼𝚞𝚕𝚝𝚒𝙳𝚎𝚟𝚒𝚌𝚎*`
 conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Sosial Media', '.sosialmedia', 'Owner', '.owner', 'Donasi', '.donasi', fcon, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://wa.me/p/5489299044451325/6285850539404',
+    mediaUrl: 'https://wa.me/p/601123559717/601123559717',
     mediaType: 2, 
     description: gc,
     title: "Sᴇᴡᴀ Cʜᴀᴛ ᴏᴡɴᴇʀ!!!",
     body: wm,
     thumbnail: fs.readFileSync('thumbnail.jpg'),
-    sourceUrl: 'https://wa.me/6285850539404',
+    sourceUrl: 'https://wa.me/601123559717',
      }}
   })
 }
@@ -56,7 +56,7 @@ handler.command = /^(donasi)$/i
 module.exports = handler
 
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
+  const time = moment.tz('Asia/Kuala Lumpur').format('HH')
   let res = "Selamat Malam"
   if (time >= 4) {
     res = "Selamat Pagi"
